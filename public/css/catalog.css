@@ -1,0 +1,130 @@
+@media(max-width:2000px){
+
+.body{
+  background-color:linen;
+}
+
+header{
+  background-color:grey;
+  width:100%;
+  margin-top:10px;
+}
+
+header h1{
+  color:white;
+  width:100%;
+  padding:5px;
+}
+
+span{
+  display:inline-block;
+}
+
+div{
+  font-size:16pt;
+  margin:30px;
+}
+
+table{
+  width:45%;
+}
+
+table tr:nth-child(even) td {
+  background-color:yellow;
+}
+
+table tr:nth-child(odd) td {
+  background-color:white;
+}
+
+th{
+  color:white;
+  background-color:grey;
+  font-size:20pt;
+}
+
+div .btn{
+  color:white;
+  background-color:green;
+  font-size:16pt;
+  box-shadow:0 4px black;
+}
+
+div .btn:active{
+  position:relative;
+  box-shadow:none;
+  top:3px;
+}
+
+.back{
+  text-align:left;
+  margin:30px;
+}
+
+}
+
+@media(max-width:670px){
+
+.body{
+  background-color:linen;
+}
+
+header{
+  background-color:grey;
+  width:100%;
+  margin-top:10px;
+}
+
+header h1{
+  color:white;
+  width:100%;
+  padding:5px;
+  font-size:16pt;
+}
+
+span{
+  display:inline-block;
+}
+
+div{
+  font-size:16pt;
+  margin:20px;
+}
+
+table{
+  width:100%;
+}
+
+table tr:nth-child(even) td {
+  background-color:yellow;
+}
+
+table tr:nth-child(odd) td {
+  background-color:white;
+}
+
+th{
+  color:white;
+  background-color:grey;
+  font-size:20pt;
+}
+
+div .btn{
+  color:white;
+  background-color:green;
+  font-size:16pt;
+  box-shadow:0 4px black;
+}
+
+div .btn:active{
+  position:relative;
+  box-shadow:none;
+  top:3px;
+}
+
+.back{
+  text-align:left;
+  margin:30px;
+}
+
+}

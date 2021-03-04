@@ -1,0 +1,143 @@
+@media(max-width:2000px){
+
+.body{
+  background-color:linen;
+}
+
+header{
+  width:100%;
+  margin-top:10px;
+  background-color:grey;
+}
+
+header h1{
+  color:white;
+  width:100%;
+  padding:5px;
+}
+
+span{
+  display:inline-block;
+}
+
+.title{
+color:grey;
+}
+
+.parent{
+  text-align:center;
+  margin-top:100px;
+}
+
+.btn-square1 {
+  display: inline-block;
+  padding: 0.5em 1em;
+  text-decoration: none;
+  background:yellow;/*ボタン色*/
+  color: black;
+  border-bottom: solid 4px #627295;
+  border-radius: 3px;
+  margin:10px;
+  width:100px;
+}
+
+.btn-square1:active {
+  /*ボタンを押したとき*/
+  -webkit-transform: translateY(4px);
+  transform: translateY(4px);/*下に動く*/
+  border-bottom: none;/*線を消す*/
+}
+
+.btn-square2 {
+  display: inline-block;
+  padding: 0.5em 1em;
+  text-decoration: none;
+  background: lightgreen;/*ボタン色*/
+  color: black;
+  border-bottom: solid 4px #627295;
+  border-radius: 3px;
+  margin:10px;
+  width:100px;
+}
+
+.btn-square2:active {
+  /*ボタンを押したとき*/
+  -webkit-transform: translateY(4px);
+  transform: translateY(4px);/*下に動く*/
+  border-bottom: none;/*線を消す*/
+}
+
+.btn-square3 {
+  display: inline-block;
+  padding: 0.5em 1em;
+  text-decoration: none;
+  background: dodgerblue;/*ボタン色*/
+  color: black;
+  border-bottom: solid 4px #627295;
+  border-radius: 3px;
+  margin:10px;
+  width:100px;
+}
+
+.btn-square3:active {
+  /*ボタンを押したとき*/
+  -webkit-transform: translateY(4px);
+  transform: translateY(4px);/*下に動く*/
+  border-bottom: none;/*線を消す*/
+}
+
+
+
+}
+
+@media(max-width:750px){
+
+  .body{
+    background-color:linen;
+  }
+
+  header{
+    width:100%;
+    margin-top:10px;
+    background-color:grey;
+  }
+
+  header h1{
+    color:white;
+    width:100%;
+    padding:5px;
+  }
+
+  span{
+    display:inline-block;
+  }
+
+  .title{
+  color:grey;
+  font-size:16pt;
+  }
+
+ h2 .title{
+ color:green;
+ }
+
+  .parent{
+    text-align:center;
+    margin-top:100px;
+  }
+
+  img{
+    box-shadow:3px 3px grey;
+    text-align:center;
+    width:20%;
+    margin:10px;
+  }
+
+  img:active{
+    position:relative;
+    box-shadow:none;
+    top:3px;
+    left:3px;
+  }
+
+}
