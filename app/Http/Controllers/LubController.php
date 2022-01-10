@@ -12,7 +12,7 @@ use Illuminate\Support\Facades\Auth;
 class LubController extends Controller
 {
 
-  public function top(){
+  public function top() {
     if (Auth::check()) {
       return view('Lub/top');
     } else {
@@ -20,7 +20,7 @@ class LubController extends Controller
     }
 }
 
-  public function search(){
+  public function search() {
     if (Auth::check()) {
       return view('Lub/search');
     } else {
@@ -75,7 +75,7 @@ class LubController extends Controller
     return view('Lub.addConfirm',['id'=>$id]);
   }
 
-  public function updateConfirm(Request $request){
+  public function updateConfirm(Request $request) {
 
     if(empty($request->packing)){
       $check=array("未設定です");
@@ -83,15 +83,15 @@ class LubController extends Controller
       $check=$request->packing;
     }
 
-    if(empty($request->image)){
+    if(empty($request->image)) {
       $path="public/img/dai.jpeg";
-    }else{
+    } else {
       $path = $request->file('image')->store('public/img');
     }
 
     $this->validate($request,Lub::$rules);
 
-    $param=[
+    $param= [
       'id'=>$request->id,
       'name'=>$request->name,
       'explain'=>$request->explain,
